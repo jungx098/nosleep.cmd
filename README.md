@@ -1,9 +1,19 @@
 # NOSLEEP for Windows
 
-## Execution
+## Execution examples
+
+### no-sleep indefinitely
 
 ```
 $ nosleep.cmd
 ```
 
-- Exit: `^C`
+### no-sleep for 10 sec
+
+```
+$ nosleep.cmd 10
+```
+
+## Exit
+
+Press `^C`
