@@ -12,7 +12,7 @@ GEXPR=expr
 # Check platform
 #==============================================================================
 
-PLATFORM=$($GEXPR substr $(uname -s) 1 10)
+PLATFORM=$($GEXPR substr $(uname -s) 1 9)
 
 if [ "$PLATFORM" != "CYGWIN_NT" ]; then
     echo "NOT verified for '"${PLATFORM}"'"
